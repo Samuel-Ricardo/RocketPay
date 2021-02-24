@@ -1,9 +1,13 @@
 defmodule RocketpayWeb.WelcomeController do
   use RocketpayWeb, :controller
 
-  def index(connection, _params) do
+  alias Rocketpay.Numbers
 
-    text(connection, "Welcome to the Rocketpay API")
+  def index(connection, %{"filename" => filename}) do
+
+    filename
+      |>Numbers.sum_from_file()
+      |>handle_response()
 
   end
 
