@@ -20,6 +20,8 @@ defmodule Rocketpay.NumbersTest do
         response = Numbers.sum_from_file("pedro")
 
         expected_response = {:error, %{message: "Invalid File"}}
+
+        assert response == expected_response
       end
   end
 
