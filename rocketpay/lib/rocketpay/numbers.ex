@@ -12,13 +12,13 @@ defmodule Rocketpay.Numbers do
     numbers = numbers
 
     |> String.split(",")
-    |> Enum.map(fn number -> String.to_integer(number) end)
+    |> Stream.map(fn number -> String.to_integer(number) end)
     |> Enum.sum()
 
     {:ok, %{result: numbers}}
 
   end
-  defp handle_file({:error, _reason}), do: {:error, %{message: "Error: Invalid File"}}
+  defp handle_file({:error, _reason}), do: {:error, %{message: "Invalid File"}}
 end
 
 # String./ - para ver todos os metodos no terminal
