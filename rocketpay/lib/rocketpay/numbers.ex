@@ -18,7 +18,7 @@ defmodule Rocketpay.Numbers do
     {:ok, %{result: numbers}}
 
   end
-  defp handle_file({:error, _reason}), do: {:error,"Error: Invalid File"}
+  defp handle_file({:error, _reason}), do: {:error, %{message: "Error: Invalid File"}}
 end
 
 # String./ - para ver todos os metodos no terminal
