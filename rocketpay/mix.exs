@@ -43,9 +43,11 @@ defmodule Rocketpay.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
-      {:credo, "~> 1.5", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.5"}
     ]
   end
+
+  #{:credo, "~> 1.5", only: [:dev, :test], runtime: false}
 
   # Aliases are shortcuts or tasks specific to the current project.
   # For example, to install project dependencies and perform other setup tasks, run:
