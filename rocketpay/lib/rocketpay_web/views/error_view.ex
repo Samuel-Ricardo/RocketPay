@@ -1,9 +1,9 @@
 defmodule RocketpayWeb.ErrorView do
   use RocketpayWeb, :view
 
-  import Ecto.Changeset, only: [traverse_erros: 2]
+  import Ecto.Changeset, only: [traverse_errors: 2]
 
-  alias Ecto.Chanset
+  alias Ecto.Changeset
 
   # If you want to customize a particular status code
   # for a certain format, you may uncomment below.
@@ -24,7 +24,7 @@ defmodule RocketpayWeb.ErrorView do
 
   defp translate_erros(changeset) do
 
-    traverse_erros(changeset, fn {msg, opts} ->
+    traverse_errors(changeset, fn {msg, opts} ->
       Enum.reduce(opts, msg, fn {key, value}, acc ->
         String.replace(acc, "%{#{key}}", to_string(value))
       end)

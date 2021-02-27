@@ -35,11 +35,9 @@ defmodule Rocketpay.User do
 
   defp put_password_hash(%Changeset{valid?: true, changes: %{password: password}} = changeset) do
 
-    change(changeset, Base.encode64(password))
-    :crypto.
+    change(changeset, password: Base.encode64(password))
   end
 
- # defp put_password_hash(%Changeset{} = changeset), do: changeset
-
-end
+ defp put_password_hash(changeset), do: changeset
+ # params = %{name: "Samuel", password: "123456", email: "samu@gmail.com", nickname: "Samu", age: 20}
 end
