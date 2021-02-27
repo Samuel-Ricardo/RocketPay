@@ -1,19 +1,19 @@
 defmodule RocketpayWeb.UsersController do
   use RocketpayWeb, :controller
 
-  alias Rocktwpay.Users
+  alias Rocketpay.User
 
-  def create (conn, params) do
+  def create(conn, params) do
 
     params
       |> Rocketpay.create_user()
       |> handle_response(conn)
   end
 
-  defp handle_response ({:ok, %User{} = user}, conn) do
+  defp handle_response({:ok, %User{} = user}, conn) do
 
     conn
-      |> put_satus(:created) # (201)
+      |> put_status(:created) # (201)
       |> render("create.json", user: user)
   end
 
@@ -21,7 +21,7 @@ defmodule RocketpayWeb.UsersController do
 
     conn
       |> put_status(:bad_request)
-      |> put_view(rocketpayWeb.ErrorView)
+      |> put_view(RocketpayWeb.ErrorView)
       |> render("400.json", result: result)
   end
 end

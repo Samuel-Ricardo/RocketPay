@@ -2,6 +2,8 @@ defmodule Rocketpay.User do
   use Ecto.Schema
   import Ecto.Changeset
 
+  alias Ecto.Changeset
+
   @primary_key {:id, :binary_id, autogenerate: true}
 
   @required_params [:name, :age, :email, :password, :nickname]
@@ -33,9 +35,11 @@ defmodule Rocketpay.User do
 
   defp put_password_hash(%Changeset{valid?: true, changes: %{password: password}} = changeset) do
 
-    change(changeset, Bcrypt.add_hash(password))
+    change(changeset, Base.encode64(password))
+    :crypto.
   end
 
-  defp put_password_hash(changeset) , do: changeset
+ # defp put_password_hash(%Changeset{} = changeset), do: changeset
 
+end
 end

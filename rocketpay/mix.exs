@@ -44,8 +44,9 @@ defmodule Rocketpay.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
-      {:bcrypt_elixir, "~>2.0"}
+
     ]
+    #{:bcrypt_elixir, "~>2.0"}
   end
   # Aliases are shortcuts or tasks specific to the current project.
   # For example, to install project dependencies and perform other setup tasks, run:
