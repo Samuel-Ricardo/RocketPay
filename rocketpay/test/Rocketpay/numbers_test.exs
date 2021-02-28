@@ -1,5 +1,5 @@
 defmodule Rocketpay.NumbersTest do
-  use ExUni.Case
+  use ExUni.Case, async: true
 
   alias Rocketpay.Numbers
 
