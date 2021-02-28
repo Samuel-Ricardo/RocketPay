@@ -28,11 +28,11 @@ defmodule RocketpayWeb.AccountsController do
 
   def transaction(conn, params) do
 
-    with {:ok, %Transaction{} = transaction} <- Rocketpay.transaction(params) do
+    with {:ok, %{} = transaction} <- Rocketpay.transaction(params) do
 
       conn
         |> put_status(:ok)
-        |> render("transaction.json", transaction; transaction)
+        |> render("transaction.json", transaction: transaction)
     end
   end
 end
