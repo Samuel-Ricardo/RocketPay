@@ -24,11 +24,11 @@ defmodule Rocketpay.Accounts.Operation do
   defp update_balance(repo, account, value, operation) do
 
     account
-      |> operation(value, operation, operation)
+      |> operation_values(value, operation)
       |> update_account(repo, account)
   end
 
-  defp operation(%Account{balance: balance}, value, operation) do
+  defp operation_values(%Account{balance: balance}, value, operation) do
 
     value
       |> Decimal.cast()
@@ -36,7 +36,7 @@ defmodule Rocketpay.Accounts.Operation do
   end
 
   defp handle_cast({:ok, value}, balance, :deposit), do: Decimal.add(balance, value)
-  defp handle_caste({:ok, value}, balance, :withdraw), do: Decimal.sub(banlance, value)
+  defp handle_cast({:ok, value}, balance, :withdraw), do: Decimal.sub(balance, value)
   defp handle_cast(:error, _balance, _operation), do: {:error, "Invalid Deposit Value!"}
 
   defp update_account({:error, _reason} = error, _repo, _account), do: error
