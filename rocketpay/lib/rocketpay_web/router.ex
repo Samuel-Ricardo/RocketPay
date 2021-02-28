@@ -32,6 +32,8 @@ defmodule RocketpayWeb.Router do
 
   # {header} Authorization - Basic username:password  (username:password) deve estar em Base64
 
+  # mix test --cover
+
 
   # Enables LiveDashboard only for development
   #
