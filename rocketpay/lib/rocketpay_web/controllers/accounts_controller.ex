@@ -3,7 +3,7 @@ defmodule RocketpayWeb.AccountsController do
 
   alias Rocketpay.Account
 
-  action_fallback RocketpayWeb.FallbackController
+ action_fallback RocketpayWeb.FallbackController
 
   def deposit(conn, params) do
 
