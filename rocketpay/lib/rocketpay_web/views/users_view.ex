@@ -5,10 +5,10 @@ defmodule RocketpayWeb.UsersView do
   def render("create.json",
    %{
      user: %User{
-       account: %Account{
+        account: %Account{
             id: account_id,
             balance: balance
-          },
+         },
        id: id,
        name: name,
        nickname: nickname
@@ -21,7 +21,7 @@ defmodule RocketpayWeb.UsersView do
       user: %{
         id: id,
         name: name,
-        nickname: nickname
+        nickname: nickname,
         account: %{
           id: account_id,
           balance: balance

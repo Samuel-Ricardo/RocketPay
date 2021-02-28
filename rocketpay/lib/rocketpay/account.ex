@@ -1,7 +1,7 @@
-defmodule Roccketpay.Accounts do
+defmodule Rocketpay.Account do
   use Ecto.Schema
-
   import Ecto.Changeset
+
   alias Rocketpay.User
 
   @primary_key {:id, :binary_id, autogenerate: true}
@@ -9,7 +9,7 @@ defmodule Roccketpay.Accounts do
 
   @required_params [:balance, :user_id]
 
-  Schema "accounts" do
+  schema "accounts" do
 
     field :balance, :decimal
     belongs_to :user, User
@@ -17,11 +17,11 @@ defmodule Roccketpay.Accounts do
     timestamps()
   end
 
-  def changeset(params) do
+  def  changeset(params) do
 
-    %__MODULE__% {}
-      |>cast (params, @required_params)
+    %__MODULE__{}
+      |> cast(params, @required_params)
       |> validate_required(@required_params)
-      |> check_constratint(:balance, name: :balance_must_be_positive_or_zero)
+      |> check_constraint(:balance, name: :balance_must_be_positive_or_zero)
   end
 end
