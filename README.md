@@ -243,5 +243,5 @@ Main Technologies:
 
 <p> This readme is based on: </p>
 
-  ### [João Pedro Alves](https://github.com/joaopealves/Rocketpay/blob/main/README.md)
-  ### [Tiago Santos Da Silva](https://github.com/tiago154/rocketpay/blob/master/README.md)
+  - [João Pedro Alves](https://github.com/joaopealves/Rocketpay/blob/main/README.md)
+  - [Tiago Santos Da Silva](https://github.com/tiago154/rocketpay/blob/master/README.md)
