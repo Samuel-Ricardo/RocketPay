@@ -107,7 +107,7 @@ Main Technologies:
   
   ```
   
-### Open the absolut path in your terminal and go to projetc:
+### Open the absolut path of project in your terminal and go to rocketpay:
 
   ``` 
   
