@@ -50,7 +50,7 @@ Main Technologies:
 
 <br>
 
-## :squirrel: What I need to start?
+## :shipit: What I need to start?
 
 <br>
 
@@ -89,7 +89,101 @@ Main Technologies:
 <br>
 <br>
 
-## :bowtie: Start Application
+## :electron: Start Application
+
+### Open Your Git Terminal and Clone This Repositore:
+
+  ``` git
+  
+  $ git clone "https://github.com/Samuel-Ricardo/RocketPay"
+  
+  ```
+  
+### Make pull:
+
+  ``` git
+  
+  $ git pull "https://github.com/Samuel-Ricardo/RocketPay"
+  
+  ```
+  
+### Open the absolut path in your terminal and go to projetc:
+
+  ``` 
+  
+  $ cd rocketpay
+  
+  ```
+  
+### Install Dependencies:
+
+  ``` elixir
+  
+  mix deps.get
+  
+  ```
+  
+### By Guarantee, Compile Dependencies:
+
+  ``` elixir
+  
+  mix deps.recompile
+  
+  ```
+  
+### Create Database:
+
+  ``` elixir
+  
+  mix ecto.setup
+  
+  ```
+ 
+### Shortcut to create the Database and run the migrations:
+
+  ``` elixir
+  
+  mix ecto.setup
+  
+  ```
+  
+  ###
+  
+## Case dont want use shortcut
+  
+  
+### Create Database:
+
+  ``` elixir
+  
+  mix ecto.create
+  
+  ```
+
+### Drop Database:
+
+  ``` elixir
+  
+  mix ecto.drop
+  
+  ```
+
+### Create Migration:
+
+  ``` elixir
+  
+  mix ecto.gen.migration create_TableName_table
+  
+  ```
+
+### Run Migration:
+
+  ``` elixir
+  
+  mix ecto.migration 
+  
+  ```
+
 
 <h2 id="author">
   :octocat: Author
