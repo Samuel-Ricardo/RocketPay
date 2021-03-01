@@ -48,9 +48,9 @@ Main Technologies:
   :zap: Run Project
 </h2>
 
-##
+<br>
 
-## What I need to start?
+## :squirrel: What I need to start?
 
 <br>
 
@@ -88,6 +88,8 @@ Main Technologies:
  
 <br>
 <br>
+
+## :bowtie: Start Application
 
 <h2 id="author">
   :octocat: Author
