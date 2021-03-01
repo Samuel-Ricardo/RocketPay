@@ -1,6 +1,6 @@
 # Rocketpay
 
-<p align="center"><img width="250px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/elixir/elixir-original-wordmark.svg"/></p>
+<p align="center"><a href="https://elixir-lang.org/" ><img width="250px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/elixir/elixir-original-wordmark.svg"/><a></p>
 <h4 align="center">NextLevelWeek 4.0 🚀</h4>
 <h4 align="center">Application made during a NLW, event promoted by <a href="https://www.instagram.com/rocketseat_oficial/"> @Rocketseat_Oficial </a> </h4>
 
@@ -141,7 +141,7 @@ Main Technologies:
   
   ###
   
-## Case dont want use shortcut
+## If you don't want to use a shortcut
   
   
 ### Create Database:
@@ -149,14 +149,6 @@ Main Technologies:
   ``` elixir
   
   mix ecto.create
-  
-  ```
-
-### Drop Database:
-
-  ``` elixir
-  
-  mix ecto.drop
   
   ```
 
@@ -198,6 +190,14 @@ Main Technologies:
 - <p> If you want see details of your application, access the dashboard of Phoenix: http://localhost:4000/dashboard/home </p>
 
 
+### if need Drop Database:
+
+  ``` elixir
+  
+  mix ecto.drop
+  
+  ```
+
   <br>
   <br>
   
@@ -214,11 +214,9 @@ Main Technologies:
 
   <br>
 
-  <p><b>Samuel Ricardo</b></p>
-
+   <p><b>Samuel Ricardo</b></p>
+   
 </a>
-
-<br>
 
 <h1 align="rigth">
   
@@ -245,5 +243,5 @@ Main Technologies:
 
 <p> This readme is based on: </p>
 
-  - [João Pedro Alves](https://github.com/joaopealves/Rocketpay/blob/main/README.md)
-  - [Tiago Santos Da Silva](https://github.com/tiago154/rocketpay/blob/master/README.md)
+  ### [João Pedro Alves](https://github.com/joaopealves/Rocketpay/blob/main/README.md)
+  ### [Tiago Santos Da Silva](https://github.com/tiago154/rocketpay/blob/master/README.md)
