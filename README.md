@@ -56,7 +56,7 @@ Main Technologies:
 
 ## <img width="45px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/elixir/elixir-original.svg"></img> Elixir Language
 
-  <p> It is a Braziliam :brazil: functional programming language, perfect for scalable applications and tolerant of errors. It is a good language to work with multi tasks, competition, real time and others </p>
+  <p> It is a :brazil: Brazilian functional programming language, perfect for scalable applications and tolerant of errors. It is a good language to work with multi tasks, competition, real time and others </p>
 
 - [Install Elixir](https://elixir-lang.org/install.html)
 
