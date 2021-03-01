@@ -184,7 +184,32 @@ Main Technologies:
   
   ```
 
+#### if you want, run the tests
 
+  ``` elixir
+  
+  mix test 
+  
+  ```
+  
+
+### Start the server
+
+  ``` elixir
+  
+  mix phx.server 
+  
+  ```
+  
+  > <p> Now Your server is running in http://localhost:4000/ </p>
+  
+  > <p> If you want see details of your application, access the dashboard of Phoenix: http://localhost:4000/dashboard/home </p>
+
+
+  <br>
+  <br>
+  
+  
 <h2 id="author">
   :octocat: Author
 </h2>
