@@ -60,15 +60,21 @@ Main Technologies:
 
 - [Install Elixir](https://elixir-lang.org/install.html)
 
-  <p> <b>OBS</b>: Elixir need of <a href="https://www.erlang.org/">Earlang</a>, by default the Elixir Installer installs Erlang, but if necessary, install separately using this link: </p>
+  <p> <b>OBS</b>: Elixir need of <a href="https://www.erlang.org/">Earlang</a>, by default the Elixir Installer installs Erlang, but if necessary, install separately by click on this image </p>
   
-  - [Erlang](https://www.erlang.org/downloads)
-  
+  > <a href="https://www.erlang.org/downloads"> <img width="55px" src="https://www.vectorlogo.zone/logos/erlang/erlang-official.svg"></img> </a>
+
+<br>
+
+## <img width="50px" src="https://seeklogo.com/images/P/phoenix-logo-D15F067911-seeklogo.com.png"></img> Phoenix Framework
+
+  <p> Build rich, interactive web applications quickly, with less code and fewer moving parts. Join our growing community of developers using Phoenix to craft APIs, HTML5 apps and more, for fun or at scale. </p>
+
 - [Phoenix Framework](https://hexdocs.pm/phoenix/installation.html)
 
-<p> by default the Phoenix installs Credo, but if necessary, install separately using this link: </p>
+<p> by default the Phoenix installs Credo, but if necessary, install separately by click on this image </p>
  
- - [Credo](https://github.com/rrrene/credo#installation-and-usage)
+  > <a href="https://github.com/rrrene/credo#installation-and-usage"> <img width="55px" src="https://hexdocs.pm/credo/assets/logo.png"></img> </a>
  
 <br>
 <br>
