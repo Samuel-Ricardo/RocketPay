@@ -54,7 +54,7 @@ Main Technologies:
 
 <br>
 
-## <img width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/elixir/elixir-original.svg"></img> Elixir Language
+## <img width="45px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/elixir/elixir-original.svg"></img> Elixir Language
 
   <p> It is a Braziliam :brazil: functional programming language, perfect for scalable applications and tolerant of errors. It is a good language to work with multi tasks, competition, real time and others </p>
 
@@ -62,19 +62,29 @@ Main Technologies:
 
   <p> <b>OBS</b>: Elixir need of <a href="https://www.erlang.org/">Earlang</a>, by default the Elixir Installer installs Erlang, but if necessary, install separately by click on this image </p>
   
-  > <a href="https://www.erlang.org/downloads"> <img width="55px" src="https://www.vectorlogo.zone/logos/erlang/erlang-official.svg"></img> </a>
+  > <a href="https://www.erlang.org/downloads"> <img width="60px" src="https://www.vectorlogo.zone/logos/erlang/erlang-official.svg"></img> </a>
 
 <br>
 
-## <img width="50px" src="https://seeklogo.com/images/P/phoenix-logo-D15F067911-seeklogo.com.png"></img> Phoenix Framework
+## <img width="60px" src="https://seeklogo.com/images/P/phoenix-logo-D15F067911-seeklogo.com.png"></img> Phoenix Framework
 
   <p> Build rich, interactive web applications quickly, with less code and fewer moving parts. Join our growing community of developers using Phoenix to craft APIs, HTML5 apps and more, for fun or at scale. </p>
 
 - [Phoenix Framework](https://hexdocs.pm/phoenix/installation.html)
 
-<p> by default the Phoenix installs Credo, but if necessary, install separately by click on this image </p>
+  <p> by default the Phoenix installs Credo, but if necessary, install separately by click on this image </p>
  
-  > <a href="https://github.com/rrrene/credo#installation-and-usage"> <img width="55px" src="https://hexdocs.pm/credo/assets/logo.png"></img> </a>
+  > <a href="https://github.com/rrrene/credo#installation-and-usage"> <img width="60px" src="https://hexdocs.pm/credo/assets/logo.png"></img> </a>
+ 
+ <br>
+ 
+ ## <img width="45px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"></img> PostgresSQL Database
+ 
+  <p> PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance. See more: <a href="https://www.postgresql.org/"> PostgresSQL - Home </a></p>
+ 
+  <p> Install by click on this Image: </p>
+  
+  > <a href="https://www.postgresql.org/download/"> <img width="60px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" > <img/> </a>
  
 <br>
 <br>
