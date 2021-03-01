@@ -185,9 +185,9 @@ Main Technologies:
   
   ```
   
-- <p> Now Your server is running in http://localhost:4000/ </p>
+- <p> Now Your server is running in <b><a href="http://localhost:4000/">localhost:4000</a></b> </p>
   
-- <p> If you want see details of your application, access the dashboard of Phoenix: http://localhost:4000/dashboard/home </p>
+- <p> If you want see details of your application, access the dashboard of Phoenix: <b><a href="http://localhost:4000/dashboard/home">localhost:4000/dashboard/home</a><b/> </p>
 
 
 ### if need Drop Database:
