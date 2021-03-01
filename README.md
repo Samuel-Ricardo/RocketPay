@@ -1,6 +1,6 @@
 # Rocketpay
 
-<p align="center"><img src="https://www.vectorlogo.zone/logos/elixir-lang/elixir-lang-ar21.svg"/></p>
+<p align="center"><img width="250px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/elixir/elixir-original-wordmark.svg"/></p>
 <h4 align="center">NextLevelWeek 4.0 🚀</h4>
 <h4 align="center">Application made during a NLW, event promoted by <a href="https://www.instagram.com/rocketseat_oficial/"> @Rocketseat_Oficial </a> </h4>
 
@@ -47,6 +47,38 @@ Main Technologies:
 <h2 id="run-project">
   :zap: Run Project
 </h2>
+
+##
+
+## What I need to start?
+
+<br>
+
+## <img width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/elixir/elixir-original.svg"></img> Elixir Language
+
+  <p> It is a Braziliam :brazil: functional programming language, perfect for scalable applications and tolerant of errors. It is a good language to work with multi tasks, competition, real time and others </p>
+
+- [Install Elixir](https://elixir-lang.org/install.html)
+
+  <p> <b>OBS</b>: Elixir need of <a href="https://www.erlang.org/">Earlang</a>, by default the Elixir Installer installs Erlang, but if necessary, install separately using this link: </p>
+  
+  - [Erlang](https://www.erlang.org/downloads)
+  
+- [Phoenix Framework](https://hexdocs.pm/phoenix/installation.html)
+
+<p> by default the Phoenix installs Credo, but if necessary, install separately using this link: </p>
+ 
+ - [Credo](https://github.com/rrrene/credo#installation-and-usage)
+ 
+<br>
+<br>
+
+<h2 id="author">
+  :octocat: Author
+</h2>
+
+<br>
+<br>
 
 <h2 id="credits">
   :octocat: Credits
