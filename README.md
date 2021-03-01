@@ -130,14 +130,6 @@ Main Technologies:
   mix deps.recompile
   
   ```
-  
-### Create Database:
-
-  ``` elixir
-  
-  mix ecto.setup
-  
-  ```
  
 ### Shortcut to create the Database and run the migrations:
 
@@ -201,9 +193,9 @@ Main Technologies:
   
   ```
   
-  > <p> Now Your server is running in http://localhost:4000/ </p>
+- <p> Now Your server is running in http://localhost:4000/ </p>
   
-  > <p> If you want see details of your application, access the dashboard of Phoenix: http://localhost:4000/dashboard/home </p>
+- <p> If you want see details of your application, access the dashboard of Phoenix: http://localhost:4000/dashboard/home </p>
 
 
   <br>
@@ -213,6 +205,36 @@ Main Technologies:
 <h2 id="author">
   :octocat: Author
 </h2>
+
+<br>
+
+<a href="https://www.linkedin.com/in/samuel-ricardo-cabral/">
+
+  <img width="250px" src="https://github.com/Samuel-Ricardo/RocketPay/blob/master/readmefile/github.jpg"/>
+
+  <br>
+
+  <p><b>Samuel Ricardo</b></p>
+
+</a>
+
+<br>
+
+<h1 align="rigth">
+  
+<a href="https://www.linkedin.com/in/samuel-ricardo-cabral/">
+  
+  <img width = "115px" src="https://img.shields.io/badge/Linkedin-1781EB?color=blue&style=for-the-badge&logo=LinkedIn" /> 
+  
+<a>
+
+<a href="https://www.instagram.com/samuel_ricardo.ex/">
+  
+  <img width = "130px" src="https://img.shields.io/badge/Instagram-1781EB?color=purple&style=for-the-badge&logo=Instagram" /> 
+  
+<a>
+  
+<h1>
 
 <br>
 <br>
