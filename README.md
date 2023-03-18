@@ -13,7 +13,7 @@
 </p>
 
 <h1 align="center">
-  <a href="https://www.linkedin.com/in/samuel-ricardo-cabral/">
+  <a href="https://www.linkedin.com/in/samuel-ricardo/">
     <img alt="Linkedin" src="https://img.shields.io/badge/LinkedIn-1781EB?style=for-the-badge&logo=linkedin&logoColor=fff&labelColor=1781EB)%5D">
   </a>
   <a href="./LICENSE">
@@ -208,9 +208,9 @@ Main Technologies:
 
 <br>
 
-<a href="https://www.linkedin.com/in/samuel-ricardo-cabral/">
+<a href="https://www.linkedin.com/in/samuel-ricardo/">
 
-  <img width="250px" src="https://github.com/Samuel-Ricardo/RocketPay/blob/master/readmefile/github.jpg"/>
+  <img width="250px" src="https://github.com/Samuel-Ricardo/bolao-da-copa/raw/main/readme_files/IMG_20220904_220148_188.jpg"/>
 
   <br>
 
@@ -220,7 +220,7 @@ Main Technologies:
 
 <h1 align="rigth">
   
-<a href="https://www.linkedin.com/in/samuel-ricardo-cabral/">
+<a href="https://www.linkedin.com/in/samuel-ricardo/">
   
   <img width = "115px" src="https://img.shields.io/badge/Linkedin-1781EB?color=blue&style=for-the-badge&logo=LinkedIn" /> 
   
